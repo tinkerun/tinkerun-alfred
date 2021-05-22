@@ -1,6 +1,6 @@
 {
   "name": "tinkerun-alfred",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tinkerun alfred workflow",
   "author": {
     "name": "billyct"
@@ -12,9 +12,9 @@
     "info.plist"
   ],
   "scripts": {
-		"postinstall": "alfy-init",
-		"preuninstall": "alfy-cleanup"
-	},
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
